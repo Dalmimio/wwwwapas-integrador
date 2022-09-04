@@ -7,9 +7,6 @@ font-family: 'Roboto', sans-serif; */
 
 body{
     color: #333;
-<<<<<<< Updated upstream
-    font: 400 24px 'Roboto', sans-serif;
-=======
     font-family: 'Roboto', sans-serif;
     font: 400;
     font-size: 24px;
@@ -44,18 +41,11 @@ nav{
 }
 nav a{
     text-transform: capitalize;
->>>>>>> Stashed changes
 }
 
 nav, h1, footer h1{
     font-family: 'Coiny', cursive;
 }
-<<<<<<< Updated upstream
-
-header h1{
-    font-size: 41px;
-}
-=======
 nav ul{
     list-style: none;
 }
@@ -84,7 +74,6 @@ ol{
     list-style-position: inside;
 }
 
->>>>>>> Stashed changes
 
 h1, h2, h3, h4, .item{
     color: black;
@@ -116,18 +105,15 @@ h3{
     display: inline;
 }
 h4{
-    font-size: 51px;
+    font-size: 25px;
     color: white;
     background-color: black;
-<<<<<<< Updated upstream
-=======
     line-height: 10px;
     padding: 10px;
     display: inline;
 }
 header,main,aside,footer{
     width: 100%;
->>>>>>> Stashed changes
 }
 
 /* - - - - - - - - - - M A I N  - - - - - - - - - - */
@@ -139,8 +125,6 @@ main{
 .encolumnar{
     display: flex;
 }
-<<<<<<< Updated upstream
-=======
 
 .servicios__img{
     width: 80%;
@@ -178,7 +162,6 @@ aside img{
 }
 
 
->>>>>>> Stashed changes
 footer{
     background-color: #FCEE21;
 }
