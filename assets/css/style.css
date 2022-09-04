@@ -3,19 +3,57 @@
 /* font-family: 'Coiny', cursive;
 font-family: 'Roboto', sans-serif; */
 
+*{
+    box-sizing: border-box;
+    
+}
 
 
 body{
     color: #333;
-    font: 400 24px 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font: 400;
+    font-size: 24px;
+    margin: 0;
+    
 }
-
+nav{
+    padding: 20px;
+}
+nav a{
+    text-transform: capitalize;
+}
 nav, h1, footer h1{
     font-family: 'Coiny', cursive;
 }
+nav ul{
+    list-style: none;
+}
+nav a, footer a{
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none; 
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav h1{
+    margin-left: auto;
+}
+ol{
+    font-size: 1em;
+    font-weight: 400;
+    list-style-position: inside;
+}
 
 header h1{
+    font-weight: 700;
     font-size: 41px;
+}
+.header__img{
+    width: 30%;
 }
 
 h1, h2, h3, h4{
@@ -30,15 +68,61 @@ h2, h3{
 h3{
     font-size: 26px;
 }
+h2{
+    font-weight: none;
+}
 h4{
-    font-size: 51px;
+    margin: 0;
+    font-size: 25px;
     color: white;
     background-color: black;
+    line-height: 20px;
+    padding: 10px;
+}
+header,main,aside,footer{
+    width: 100%;
 }
 main{
     font-size: 21px;
 }
+
+.servicios__img{
+    width: 30%;
+}
+
+form{
+    margin: auto;
+}
+span{
+    color: red;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    height: 40px;
+}
+input, textarea{
+    width: 100%;
+}
+
+
+
+
+section{
+    width: 45%;
+}
+
+aside img{
+    height: auto;
+    width: 10%;
+}
+
+
 footer{
+    height: 100px;
+    padding: 10px;
     background-color: #FCEE21;
 }
 
