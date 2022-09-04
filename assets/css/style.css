@@ -7,37 +7,178 @@ font-family: 'Roboto', sans-serif; */
 
 body{
     color: #333;
+<<<<<<< Updated upstream
     font: 400 24px 'Roboto', sans-serif;
+=======
+    font-family: 'Roboto', sans-serif;
+    font: 400;
+    font-size: 24px;
+    margin: 0;
+    
+}
+
+/* - - - - - - - - - - H E A D E R  - - - - - - - - - - */
+
+.grande{
+    font-size: 100px;
+    font-family:'Coiny', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 41px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+nav a{
+    text-transform: capitalize;
+>>>>>>> Stashed changes
 }
 
 nav, h1, footer h1{
     font-family: 'Coiny', cursive;
 }
+<<<<<<< Updated upstream
 
 header h1{
     font-size: 41px;
 }
+=======
+nav ul{
+    list-style: none;
+}
+nav a, footer a{
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none; 
+}
 
-h1, h2, h3, h4{
+nav a:hover{
+    text-decoration: underline;
+}
+.nav_nav{
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h1{
+    margin-left: auto;
+}
+ol{
+    font-size: 1em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+>>>>>>> Stashed changes
+
+h1, h2, h3, h4, .item{
     color: black;
 }
 
+.item{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCEE21;
+}
+
+#titulo{
+    font-size: 40px;
+}
 h2, h3{
     font-size: 20px;
     background-color: #FCEE21;
 }
+.presentacion{
+    background-color: white;
+    display: block;
+}
 
+.header__img{
+    width: 100%;
+}
 h3{
-    font-size: 26px;
+    font-size: 20px;
+    display: inline;
 }
 h4{
     font-size: 51px;
     color: white;
     background-color: black;
+<<<<<<< Updated upstream
+=======
+    line-height: 10px;
+    padding: 10px;
+    display: inline;
 }
+header,main,aside,footer{
+    width: 100%;
+>>>>>>> Stashed changes
+}
+
+/* - - - - - - - - - - M A I N  - - - - - - - - - - */
 main{
     font-size: 21px;
+    display: flex;
+    flex-direction: column;
 }
+.encolumnar{
+    display: flex;
+}
+<<<<<<< Updated upstream
+=======
+
+.servicios__img{
+    width: 80%;
+    display: block;
+    margin:auto;
+}
+
+form{
+    margin: auto;
+}
+span{
+    color: red;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    height: 40px;
+}
+input, textarea{
+    width: 100%;
+}
+
+
+
+
+section{
+    width: 45%;
+}
+
+aside img{
+    height: auto;
+    width: 10%;
+}
+
+
+>>>>>>> Stashed changes
 footer{
     background-color: #FCEE21;
 }
