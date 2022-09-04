@@ -24,10 +24,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
+
 }
 
-header h1{
-    padding: 20px;
+header h2{    
+    font-family:'Coiny', cursive;
+    margin-left: 20px;
     font-weight: 700;
     font-size: 41px;
 }
@@ -74,6 +77,10 @@ ol{
     list-style-position: inside;
 }
 
+section{
+    width: 45%;
+}
+
 
 h1, h2, h3, h4, .item{
     color: black;
@@ -86,36 +93,44 @@ h1, h2, h3, h4, .item{
 }
 
 #titulo{
-    font-size: 40px;
+    font-size: 30px;
+    margin-left: 2.5rem;
 }
 h2, h3{
     font-size: 20px;
     background-color: #FCEE21;
 }
-.presentacion{
+
+.presentacion h3{
+    font-family:'Coiny', cursive;
+    font-size: 35px;
     background-color: white;
-    display: block;
 }
 
 .header__img{
     width: 100%;
+}
+h2{
+    display: inline-block;
 }
 h3{
     font-size: 20px;
     display: inline;
 }
 h4{
-    font-size: 25px;
+    font-size: 51px;
     color: white;
     background-color: black;
-    line-height: 10px;
+    line-height: 100px;
     padding: 10px;
     display: inline;
 }
 header,main,aside,footer{
     width: 100%;
 }
-
+p{
+    display: inline-block;
+}
 /* - - - - - - - - - - M A I N  - - - - - - - - - - */
 main{
     font-size: 21px;
@@ -124,13 +139,30 @@ main{
 }
 .encolumnar{
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
 }
+
+/* - - - - - - - - - - S E R V I C E  - - - - - - - - - - */
 
 .servicios__img{
     width: 80%;
     display: block;
     margin:auto;
 }
+
+.section__service{
+    border-bottom: #333 solid 1px;
+    border-top: #333 solid 1px;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+.section__service h2{
+    background-color: white;
+}
+
+/* - - - - - - - - - - C O N T A C T  - - - - - - - - - - */
 
 form{
     margin: auto;
@@ -141,26 +173,49 @@ span{
 label{
     display: block;
     margin-bottom: 5px;
+    margin-left: 3rem;
 }
 input{
     height: 40px;
+    
 }
 input, textarea{
-    width: 100%;
+    width: 80%;
+    border: black solid 1px;
+    
+    margin-left: 3rem;
+}
+form div{
+    display: flex;
+    justify-content: space-evenly;
+}
+form div input{
+    color: white;
+    background-color: black;
+    width: 30%;
+    margin-left: 0;
+    margin-right: 1rem;
 }
 
 
 
+/* - - - - - - - - - - A S I D E  - - - - - - - - - - */
 
-section{
-    width: 45%;
+aside{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+aside a{
+    text-align: center;
 }
 
 aside img{
     height: auto;
-    width: 10%;
+    width: 30%;
 }
 
+/* - - - - - - - - - - F O O T E R  - - - - - - - - - - */
 
 footer{
     background-color: #FCEE21;
